@@ -1,6 +1,8 @@
 ## Array Sequences 
-# Implementaion of Dynamic Array 
 
+**Implementaion of Dynamic Array**
+
+```python
 import ctypes
 
 class DynamicArray(object):
@@ -63,3 +65,5 @@ arr.append(2)
 
 print(arr[0])
 print(len(arr))
+
+```
