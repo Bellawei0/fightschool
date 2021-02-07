@@ -1,8 +1,4 @@
-# Python3 code for the above approach
 
-# Function to find the
-# largest lexicographical
-# string with given constraints.
 def getLargestString(s, k):
 
     # Vector containing frequency
@@ -11,12 +7,8 @@ def getLargestString(s, k):
 
     # Assigning frequency to
     for i in range(len(s)):
-
-        frequency_array[ord(s[i]) -
-                        ord('a')] += 1
-
-    # Empty string of
-    # string class type
+        frequency_array[ord(s[i]) -ord('a')] += 1
+        
     ans = ""
 
     # Loop to iterate over
